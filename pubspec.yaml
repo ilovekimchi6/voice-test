@@ -1,6 +1,6 @@
 name: voice_test
 description: "A new Flutter project."
-publish_to: 'none' 
+publish_to: 'none'
 
 
 version: 1.0.0+1
@@ -11,8 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  record: ^4.4.4
-  web_socket_channel: ^2.1.0
+  path_provider: ^2.1.2
+  record: ^5.2.0
+  web_socket_channel: ^2.4.0
+  permission_handler: ^11.3.1
   logger: ^2.0.2+1
   cupertino_icons: ^1.0.8
 
